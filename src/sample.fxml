@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #2c3e50;" styleClass="#30336b" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <Button fx:id="generatedButton" cacheShape="false" centerShape="false" contentDisplay="CENTER" defaultButton="true" focusTraversable="false" layoutX="73.0" layoutY="211.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="155.0" scaleShape="false" style="-fx-background-color: #ffbe76;" text="СГЕНЕРИРОВАТЬ" textAlignment="CENTER" textFill="#30336b">
+         <font>
+            <Font name="Segoe UI" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </Button>
+      <Label fx:id="numberLabel" alignment="CENTER" layoutX="73.0" layoutY="121.0" prefHeight="68.0" prefWidth="155.0" style="-fx-background-color: #ffbe76;" text="ВАШЕ ЧИСЛО" textFill="#30336b">
+         <font>
+            <Font name="Segoe UI" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="textLabel" alignment="CENTER" layoutX="73.0" layoutY="30.0" prefHeight="68.0" prefWidth="155.0" style="-fx-background-color: #ffbe76;" text="Какое счастье?" textFill="#30336b">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="23.0" layoutY="30.0" prefHeight="251.0" prefWidth="22.0" style="-fx-background-color: #ffbe76;" />
+      <AnchorPane layoutX="255.0" layoutY="28.0" prefHeight="251.0" prefWidth="22.0" style="-fx-background-color: #ffbe76;" />
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>
